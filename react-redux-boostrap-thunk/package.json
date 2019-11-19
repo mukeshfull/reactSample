@@ -1,0 +1,45 @@
+{
+  "name": "DemoApp",
+  "version": "1.0.0",
+  "description": "A ready to use simple react webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --port=3004 --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Mukesh Vishwakarma",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "d3": "^5.9.2",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "mdbreact": "^4.13.0",
+    "prop-type": "0.0.1",
+    "react": "^16.8.3",
+    "react-apollo": "^2.5.5",
+    "react-bootstrap-table": "^4.3.1",
+    "react-compound-slider": "^2.0.0",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2"
+  }
+}

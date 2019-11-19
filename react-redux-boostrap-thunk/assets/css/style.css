@@ -1,0 +1,28 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 0px;
+}
+footer {
+    position: fixed;
+    background-color: #d0d0d0;
+    bottom: 0;
+    width: 100%;
+}
+.headerimg{
+    width: 180px;
+    height: 30px;
+}
+.li-inline{
+    display:inline-block;
+    padding:0px 10px 0px 10px;
+}
+.ul-inline-block{
+    display: inline-block;
+}
+svg circle{
+    cursor: pointer;
+}
